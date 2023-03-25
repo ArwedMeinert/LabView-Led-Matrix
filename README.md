@@ -1,6 +1,6 @@
 # LabView-Led-Matrix
-The project I did for my LabView course in university displays the current humidity and temperature and shows both stats over time. The temperature and humidity get measured by a sensor connected to the Arduino and get send via the serial connection to the LabView program running on a PC. The LabView program calculates the pixels that need to be switched on as well as the colour and sends this data back to the Arduino. There, the LED-Matrix gets displayed.
-All documentation is in German.
+The project I did for my LabView course in university displays the current humidity and temperature and shows both stats over time. The temperature and humidity get measured by a sensor connected to the Arduino ([sketch](https://github.com/ArwedMeinert/LabView-Led-Matrix/blob/main/Arduino%20Sketch/serielleslesen/serielleslesen.ino)) and get send via the serial connection to the LabView [program](https://github.com/ArwedMeinert/LabView-Led-Matrix/tree/main/LabVIEW%20II) running on a PC. The LabView program calculates the pixels that need to be switched on as well as the colour and sends this data back to the Arduino. There, the LED-Matrix gets displayed.
+All documentation is in German, but there is a translated verison of the [documentation](https://github.com/ArwedMeinert/LabView-Led-Matrix/blob/main/LabVIEW%20II%20Dokumentation%20EN.pdf) translated by DeepL.
 
 This is the prototyping phase of the project. All necessary components are placed on the breadboard and are wired up. 
 
